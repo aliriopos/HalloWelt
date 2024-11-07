@@ -2,8 +2,8 @@ package main
 
 import (
   "fmt"
-  "github.com/aliriopos/halloweltMod/pkg1"
-  "github.com/aliriopos/halloweltMod/pkg2"
+  "github.com/aliriopos/HalloWelt/pkg1"
+  "github.com/aliriopos/HalloWelt/pkg2"
 )
 
 func init () {
