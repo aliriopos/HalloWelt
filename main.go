@@ -19,5 +19,6 @@ func init () {
 func main() {
   saludo := "Hola, saludo desde main..."
   fmt.Println(saludo)
-  pkg2.Turrón()
+  pkg2.Turron()
+  pkg2.TurronInGreek()
 }

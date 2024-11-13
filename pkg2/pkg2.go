@@ -10,7 +10,15 @@ func init () {
   fmt.Println("Inicializando pkg2...")
 }
 
-func Turrón () {
+// To show hello world in German
+// NOTE:
+//   - It does not work with Turrón
+//     func Turrón () { DOES NOT WORK
+func Turron () {
   fmt.Println(" ---------- HALLO WELT ----------")
 }
 
+// To show hello world in Greek
+  func TurronInGreek () {
+    fmt.Println(" ---------- Under construction ----------")
+  }
