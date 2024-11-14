@@ -20,9 +20,9 @@ func Turron () {
 
 // To show hello world in Greek and utf8 codification
 func TurronInGreek () {
-    stringEnGriego := " ---------- Γειά σου Κόσμε ----------"
-    runaEnGriego :=[]rune(stingEnGriego)
+    cadenaEnGriego := " ---------- Γειά σου Κόσμε ----------"
+    runaEnGriego :=[]rune(cadenaEnGriego)
 
-    fmt.Println(stringEnGriego)
+    fmt.Println(cadenaEnGriego)
     fmt.Println(runaEnGriego)
   }
