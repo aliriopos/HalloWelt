@@ -18,7 +18,11 @@ func Turron () {
   fmt.Println(" ---------- HALLO WELT ----------")
 }
 
-// To show hello world in Greek
+// To show hello world in Greek and utf8 codification
 func TurronInGreek () {
-    fmt.Println(" ---------- Under construction ----------")
+    stringEnGriego := " ---------- Γειά σου Κόσμε ----------"
+    runaEnGriego :=[]rune(stingEnGriego)
+
+    fmt.Println(stringEnGriego)
+    fmt.Println(runaEnGriego)
   }
